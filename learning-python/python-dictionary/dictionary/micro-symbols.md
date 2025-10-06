@@ -246,3 +246,9 @@ while True:
 | .replace(a,b) | замена подстроки | s.replace(",", ".") |
 
 
+| try / except | попытка выполнить код, обработка ошибки | try: ... except ValueError: ... |
+| ValueError | ошибка преобразования значения | float("abc") вызывает ValueError |
+| ZeroDivisionError | деление на ноль | 10 / 0 вызывает ZeroDivisionError |
+
+
+
