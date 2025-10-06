@@ -251,4 +251,8 @@ while True:
 | ZeroDivisionError | деление на ноль | 10 / 0 вызывает ZeroDivisionError |
 
 
+| while True | бесконечный цикл (используется для повторного ввода) | while True: ... |
+| return внутри цикла | выход из функции, завершает цикл | return value |
+| .replace(a, b) | заменяет часть строки | s.replace(",", ".") |
+
 
